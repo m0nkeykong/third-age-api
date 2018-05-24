@@ -1,0 +1,68 @@
+{
+    "books":
+    [
+        {
+            "id": 1,
+            "author": "Moshiko amsalem",
+            "name": "kapara, where is my car?, i cant remember",
+            "price": 199.99,
+            "publisher": "kikar sfarim"
+        },
+        {
+            "id": 2,
+            "author": "Elhana Yosefov",
+            "name": "Sex after 69, because what falls must get up",
+            "price": 199.99,
+            "publisher": "ktovich"
+        },
+        {
+            "id": 3,
+            "author": "Yohanan Paolus",
+            "name": "100 ways to cook Marak",
+            "price": 233.99,
+            "publisher": "Ani Bli Titul"
+        },
+        {
+            "id": 4,
+            "author": "Elhana Yosefov",
+            "name": "im old, deal with it",
+            "price": 99.99,
+            "publisher": "ktovich"
+        },
+        {
+            "id": 5,
+            "author": "Yohanan Paolus",
+            "name": "hanging down low",
+            "price": 87.99,
+            "publisher": "Ani Bli Titul"
+        },
+        {
+            "id": 6,
+            "author": "Elhana Yosefov",
+            "name": "all my friends are dead, but i date all their wifes",
+            "price": 110.35,
+            "publisher": "yoSoi Pablo"
+        },
+        {
+            "id": 7,
+            "author": "Yohanan Paolus",
+            "name": "my grandson is a ganastar",
+            "price": 150.90,
+            "publisher": "ktovich"
+        },
+        {
+            "id": 8,
+            "author": "Moshiko amsalem",
+            "name": "early bird special",
+            "price": 129.99,
+            "publisher": "kikar sfarim"
+        },
+        {
+            "id": 9,
+            "author": "Moshiko amsalem",
+            "name": "find yourself, discover god, sell it and get rich",
+            "price": 199.99,
+            "publisher": "guns N'd poses"
+        }
+    ]
+}

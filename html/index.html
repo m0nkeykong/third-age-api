@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="./assets/includes/style.css" rel="stylesheet">
+    <title>Third Age API</title>
+</head>
+<body id='home'>
+    <h1>Third Age API</h1>
+    <article id='all'>
+        <a href='#'>
+            <h5>Get All Books</h5>
+            get all the books from the db
+        </a>
+    </article>
+    <article id='byprice'>
+        <a href='#'>
+            <h5>Get Books By Price</h5>
+            get all the books under specified price <br>from the db
+        </a>
+    </article>
+    <article id='byid'>
+        <a href='#'>
+            <h5>Get Books By Author</h5>
+            get all Author books from the db
+        </a>
+    </article>
+    <article id='bypriceandauthor'>
+        <a href='#'>
+            <h5>Get Books By Price And Author</h5>
+            get all books under specified price and <br>by a certain author from the db
+        </a>
+    </article>
+    <article id='json'>
+            <h5>JSON Format</h5>
+             {<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"author" : "Moshe Zvili",
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"books": [<br> 
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"id": 1,<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"name": "kapara,where is my car?"<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"price": 199.99,<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"publisher": "kikar sfarim"<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}<br>
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;]<br>
+            }<br>
+    </article>
+    <article id='about'>
+        <h5>General</h5>
+        <br>- My By Haim Elbaz
+        <br>- A third age api for old people books
+        <br>- all returning querys are a JSON object.
+    </article>
+</body>
+</html>
