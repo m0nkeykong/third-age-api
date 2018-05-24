@@ -40,7 +40,7 @@ app.post('/getAllProducts', (req, res) => {
 //<*))><
 
 //getProductById request - return json   ><((*>
-app.get('/getProductByAuthor/:prodID', (req, res) => {
+app.get('/getProductByAuthor/:author', (req, res) => {
     res.setHeader('Content-Type', 'application/json');
     res.set('header-one', 'getProductByAuthor method GET');
     res.status(200).json(oldppl.getProductByAuthor(req.params.prodID));
